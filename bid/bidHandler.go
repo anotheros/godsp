@@ -1,4 +1,4 @@
-package bid
+package godsp
 
 import (
 	"encoding/json"

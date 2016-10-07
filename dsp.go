@@ -1,10 +1,9 @@
 package main
 
 import (
-	"bid"
-
 	"github.com/bsm/openrtb"
 	"github.com/kataras/iris"
+	"github.com/zhangshanhai/godsp/bid"
 )
 
 type myjson struct {
@@ -48,7 +47,7 @@ func main() {
 			return
 		}
 		//var resp openrtb.BidResponse
-		resp := bid.BidHandler(*req)
+		resp := godsp.BidHandler(*req)
 		ctx.JSON(iris.StatusOK, resp)
 	}
 
