@@ -1,3 +1,3 @@
 # godsp
 
-go 语言写的dsp adsevice
+go 语言写的dsp adserver
